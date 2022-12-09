@@ -52,7 +52,7 @@ export default function Input() {
     /* STEP 5 */
     setInputValue('')
   };
-  const inputColor = inputValue.length < 10 ? 'royalblue' : 'crimson';
+  const inputColor = inputValue.length <= 10 ? 'royalblue' : 'crimson';
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
